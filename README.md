@@ -1,9 +1,8 @@
 # Call API With Provider
 
-A New Flutter Project.
+<img src="https://user-images.githubusercontent.com/53872301/204024242-6813b1df-9180-4e56-9e43-25c4ae13c41a.png" width =200>
 
 
-![Api Screen](https://user-images.githubusercontent.com/53872301/204024242-6813b1df-9180-4e56-9e43-25c4ae13c41a.png)
 
 ## Getting Started
 
