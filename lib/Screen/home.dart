@@ -49,7 +49,7 @@ class Count extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       '${context.watch<CounterNumber>().count}',
-      key: Key('counterState'),
+      key: const Key('counterState'),
       style: Theme.of(context).textTheme.headline1,
     );
   }
