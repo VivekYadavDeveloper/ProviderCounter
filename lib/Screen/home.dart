@@ -8,14 +8,16 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.redAccent,
+      backgroundColor: Colors.white,
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.redAccent,
         onPressed: () => context.read<CounterNumber>().increment(),
         child: const Icon(Icons.add),
       ),
       appBar: AppBar(
+        elevation: 10,
         backgroundColor: Colors.white,
-        title: const Text("Counter With Provider"),
+        title: const Text("Counter/API Provider"),
       ),
       body: SizedBox(
         width: double.infinity,
@@ -32,7 +34,10 @@ class Home extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/second');
                 },
-                child: const Text("Next Screen"),
+                child: const Text(
+                  "Next Screen",
+                  style: TextStyle(color: Colors.redAccent),
+                ),
               ),
             ],
           ),
